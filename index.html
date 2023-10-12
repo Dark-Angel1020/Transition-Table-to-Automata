@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Automata Diagram Generator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Automata Diagram Generator</h1>
+    <div>
+      <label for="numStates">Enter the number of states:</label>
+      <input type="number" id="numStates" min="1" value="1">
+      <button id="setupTable">Set up Transition Table</button>
+    </div>
+    <div id="tableContainer"></div>
+    <button id="generateDiagram" disabled>Generate Diagram</button>
+    <div id="diagram"></div>
+  </div>
+  <script src="script.js"></script>
+ <!-- JointJS library -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jointjs/3.2.2/joint.js"></script>
+</body>
+</html>
